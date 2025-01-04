@@ -14,7 +14,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="300dp"/>
 
@@ -26,7 +25,20 @@
         app:layout_constraintTop_toBottomOf="@id/iv_arcane"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:textColor="#C2FFFFFF"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_name"
+        android:layout_marginTop="14dp"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textColor="#8FFFFFFF"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

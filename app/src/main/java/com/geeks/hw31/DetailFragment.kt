@@ -29,6 +29,7 @@ class DetailFragment : Fragment() {
         arguments?.let { bundle: Bundle ->
             val arcane = bundle.getSerializable("key") as Arcane
             txtName.text  = arcane.name
+            txtDescription.text = arcane.description
             Glide.with(ivArcane).load(arcane.image).into(ivArcane)
         }
     }
