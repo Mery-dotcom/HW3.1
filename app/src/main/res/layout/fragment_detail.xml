@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_name"
         android:layout_marginTop="14dp"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:padding="8dp"
         android:textColor="#8FFFFFFF"
         android:layout_marginHorizontal="24dp"
